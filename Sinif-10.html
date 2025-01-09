@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sinif-10</title>
+    <style>
+        body
+        {
+        margin: 0;
+        padding: 0;
+        }
+        .header
+        {
+        background-color: rgb(93, 178, 8);
+        width: 100;
+        height: 150px;
+        }
+        .nav
+        {
+        background-color: rgb(8, 8, 8);
+        text-align: center;
+        color: aliceblue;
+        font-size: 30px
+        width: 100%;
+        height: 50px; 
+
+        }
+        .section 
+        {
+        padding: 20px;
+        margin: 10px auto;
+        max-width: 800px;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .aside
+        {
+        background-color: rgb(20, 173, 20);  
+        width: 10px;
+        height: 150px;
+        }
+        footer 
+        {
+        background-color: rgb(11, 11, 11);
+        color: rgb(226, 232, 226);
+        text-align: center;
+        padding: 10px;
+        }
+        .footer a
+        {
+        color: rgb(21, 126, 21); 
+        }
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        Teyyub Eyvazov
+    </header>
+    <nav class="nav">
+            Haqqımızda
+              Bacarıqlarım
+            Əlaqə
+    </nav>
+    <aside class="aside"></aside>
+    <h2>Haqqımda</h2>
+    <p>Mən Frontend Developer olaraq istifadəçi dostu və funksional 
+       veb tətbiqlər hazırlamaqda maraqlıyam.HTML, CSS və JavaScript
+        kimi texnologiyalarda ixtisaslaşmışam.
+    </p>
+    <section>
+        <h2>Bacarıqlarım</h2>
+        <div class="skills">
+            <div>
+                <h3>HTML</h3>
+                <p>Struktur yaratmaq üçün.</p>
+            </div>
+            <div>
+                <h3>CSS</h3>
+                <p>Dizayn və tərtibat.</p>
+            </div>
+            <div>
+                <h3>JavaScript</h3>
+                <p>Dinamik funksionallıq əlavə etmək üçün.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="elaqe" class="section">
+        <h2>Əlaqə</h2>
+        <form>
+            <label for="name">Adınız</label><br>
+            <input type="text" id="name" name="name" style="width: 100%; padding: 10px; margin-bottom: 10px;"><br>
+            
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" style="width: 100%; padding: 10px; margin-bottom: 10px;"><br>
+            
+            <label for="message">Mesajınız</label><br>
+            <textarea id="message" name="message" rows="4" style="width: 100%; padding: 10px;"></textarea><br>
+            
+            <button type="submit" style="padding: 10px 20px; background-color: #4CAF50; color: white; border: none; border-radius: 4px;">Göndər</button>
+        </form>
+    </section>
+
+
+    <footer class="footer">
+        <p>© 2025 Teyyub Eyvazov. Bütün hüquqlar qorunur.</p>
+        <a href="">LinkedIn |</a>
+        <a href="">GitHub |</a>
+        <a href="">Twitter</a>
+        
+    </footer>
+</body>
+</html>
